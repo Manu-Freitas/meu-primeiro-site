@@ -15,7 +15,7 @@ body {
 
 
 header {
-    background-color: rgb(67, 57, 136);
+    background-color: rgb(123, 56, 150);
     color: white;
     padding: 73px;
     text-align: center;
@@ -34,6 +34,7 @@ main {
     margin: 0 auto;
     padding: 40px;
     border-radius: 12px;
+    margin-bottom: 40px;
 }
 
 #titulo-sobre-mim {
@@ -45,4 +46,40 @@ main {
 
 .texto-sobre-mim {
     font-size: 20px;
+}
+
+#meus-hobbies {
+    background-color: white;
+    width: 80%;
+    margin-bottom: 16px;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+#titulo-meus-hobbies {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    background-color: rgb(219, 193, 243);
+    padding: 8px;
+    border-left: 4px solid rgb(96, 67, 175);
+    border-radius: 12px;
+    font-size: 16px;
+    min-width: 250px;
+}
+
+li:hover {
+    background-color: rgb(164, 81, 197);
+    transform- translateX(5px);
+    transition: all 0.3s ease;
 }
