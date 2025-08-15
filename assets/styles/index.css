@@ -123,3 +123,19 @@ border-radius: 12px;
     color: rgb(132, 43, 216);
     transform: translateX(-2px);
 }
+
+foother {
+    background-color: rgb(123, 56, 150);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+footer p {
+    background-color: rgb(123, 56, 150);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
